@@ -69,8 +69,8 @@ const Addtask = () => {
                             <label htmlFor="task_status" className='block font-medium text-sm mb-2'>Status</label>
                             <select name='task-status' onChange={(event) => { setTask({ ...task, status: event.target.value, }) }} value={task.status} id="task_status" className='w-full rounded-lg p-3 text-white bg-slate-500 focus:ring-red-400 border border-white'>
                                 <option value="none" disabled>---Select Status---</option>
-                                <option value="Pending">Pending</option>
-                                <option value="Completed">Completed</option>
+                                <option value="pending">Pending</option>
+                                <option value="completed">Completed</option>
                             </select>
                         </div>
 

@@ -1,13 +1,13 @@
 import React from 'react'
-import SignUp from './SignUp'
+import Login from './login'
 
 export const metadata = {
-  title: "Sign Up: Work Manager",
-}
+    title: "Log in: Work Manager",
+  }
 
 const page = () => {
   return (
-    <div><SignUp /></div>
+    <div><Login /></div>
   )
 }
 
